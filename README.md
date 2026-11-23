@@ -236,7 +236,7 @@ the protocol, not identical trajectories.
 ```bibtex
 @article{chen2026knowing,
   title   = {Knowing When to Stop: The Evidence--Action Gap in Coding Agents},
-  author  = {Chen, Tianyu and Zhao, Xinran and Viswanathan, Vijay and Yu, Shoubin and Zhou, Mingyuan and Wu, Tongshuang},
+  author  = {Chen*, Tianyu and Zhao*, Xinran and Viswanathan, Vijay and Yu, Shoubin and Zhou, Mingyuan and Wu, Tongshuang},
   journal = {arXiv preprint},
   year    = {2026}
 }
