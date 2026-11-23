@@ -1,0 +1,224 @@
+{
+ "andialbrecht/sqlparse": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "astropy/astropy": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "numpy"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m unittest discover"
+ },
+ "django/django": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "asgiref"
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python tests/runtests.py --parallel 1"
+ },
+ "matplotlib/matplotlib": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "numpy"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q --timeout=120"
+ },
+ "mwaskom/seaborn": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "matplotlib"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "pallets/flask": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "werkzeug"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "psf/requests": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "charset_normalizer"
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python -m unittest discover"
+ },
+ "pydata/xarray": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "pandas"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "pylint-dev/pylint": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "astroid"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "pytest-dev/pytest": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m unittest discover"
+ },
+ "scikit-learn/scikit-learn": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "scipy"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m unittest discover"
+ },
+ "sphinx-doc/sphinx": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "jinja2"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/andialbrecht__sqlparse.e57923b3": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/cantools__cantools.0c6a7871": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "bitstruct"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/kayak__pypika.1c9646f0": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/oauthlib__oauthlib.1fd52536": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/pdfminer__pdfminer.six.1a8bd2f7": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/pylint-dev__astroid.b114f6b5": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": false
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/python-openxml__python-docx.0cf6d71f": {
+  "dependency_missing": {
+   "applicable": false
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/scanny__python-pptx.278b47b1": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "lxml"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/sqlfluff__sqlfluff.50a1c4b6": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "regex"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m pytest -x -q"
+ },
+ "swesmith/stanfordnlp__dspy.651a4c71": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "pydantic"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m unittest discover"
+ },
+ "sympy/sympy": {
+  "dependency_missing": {
+   "applicable": true,
+   "package": "mpmath"
+  },
+  "python_env_damaged": {
+   "applicable": true
+  },
+  "test_cmd": "python -m unittest discover"
+ }
+}

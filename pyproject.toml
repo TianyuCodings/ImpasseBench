@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "impassebench"
+version = "1.0.0"
+description = "ImpasseBench: measuring whether coding agents know when to stop at environment impasses"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+data = ["pyarrow>=14", "pandas>=1.5", "huggingface_hub>=0.24"]
+gemini = ["google-genai>=1.0"]
+bedrock = ["boto3>=1.34"]
+openai = ["openai>=1.40"]
+anthropic = ["anthropic>=0.40"]
+monitor = ["boto3>=1.34", "swebench==5.0.2"]
+all = ["impassebench[data,gemini,bedrock,openai,anthropic,monitor]"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+impassebench = "impassebench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["impassebench*"]
+
+[tool.setuptools.package-data]
+impassebench = ["resources/*", "monitor/resources/*"]
