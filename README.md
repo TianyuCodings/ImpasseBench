@@ -71,7 +71,7 @@ we score whether it then escalates, how long it continues, and whether it acts u
   </tr>
   <tr>
     <td><b>🤖 Released runs</b></td>
-    <td>8 models × 2 interfaces × 1,211 pairs = 19,371 trajectories, plus the monitor study</td>
+    <td>19,371 trajectories from 8 models × 2 interfaces, plus the monitor study</td>
   </tr>
 </table>
 
